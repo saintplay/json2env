@@ -1,3 +1,10 @@
+<a href="https://travis-ci.org/saintplay/json2env">
+  <img src="https://travis-ci.org/saintplay/json2env.svg?branch=master" alt="Travis CI">
+</a>
+<a href="https://coveralls.io/github/saintplay/json2env?branch=master">
+  <img src="https://coveralls.io/repos/github/saintplay/json2env/badge.svg?branch=master" alt="Coveralls">
+</a>
+
 # json2env
 
 > Transform firebase JSON to ENV

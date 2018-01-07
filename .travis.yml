@@ -10,16 +10,3 @@ jobs:
     - stage: unit tests
       script:
         - npm test
-        - cat test/unit/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
-
-    - stage: deploy demo
-      script: "npm run build"
-      deploy:
-        skip_cleanup: true
-        provider: pages
-        local_dir: dist
-        github_token: $GITHUB_TOKEN
-        email: saintplay@gmail.com
-        name: Diego Jara
-        on:
-          branch: master

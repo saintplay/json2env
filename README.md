@@ -9,6 +9,8 @@
 
 > Transform firebase JSON to ENV
 
+[Demo](https://saintplay.github.io/json2env/)
+
 ## Build Setup
 
 ``` bash
